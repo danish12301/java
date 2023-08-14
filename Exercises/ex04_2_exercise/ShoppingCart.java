@@ -1,4 +1,4 @@
-package Exercises.ex03_1_exercise;
+package ex04_2_exercise
 
 public class ShoppingCart {
     public static void main(String[] args) {

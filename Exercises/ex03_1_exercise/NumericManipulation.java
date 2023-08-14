@@ -1,4 +1,4 @@
-package Exercises.ex03_1_exercise;
+package ex03_1_exercise;
 
 public class NumericManipulation {
     public static void main(String[] args) {
