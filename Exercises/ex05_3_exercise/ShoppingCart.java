@@ -9,6 +9,8 @@ public class ShoppingCart {
         int quantity = 2;
         double tax = 1.04;
 
+        double total = price * quantity * tax;
+
         String items[];
         items = new String[4];
         items[0] = "Shirt";
@@ -24,5 +26,7 @@ public class ShoppingCart {
         for(String item:items){
             System.out.println(item);
         }
+
+        System.out.println("Total cost: " + total);
     }
 }
