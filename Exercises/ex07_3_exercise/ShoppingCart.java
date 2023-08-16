@@ -5,11 +5,14 @@ public class ShoppingCart {
         int int1;
         long lngLongNumber = 200000000000L;
         float fltFloatNumber = 10F;
-        char chCharacter = 'A';
+        char chChar = 'A';
         
 	    System.out.println("Long Number: " + lngLongNumber);
         int1= (int) lngLongNumber;
         System.out.println("Long Number in Int: " + int1);
+
+        System.out.println("Float: " + fltFloatNumber);
+        System.out.println("Char: " + chChar);
 	           
     }
 }
